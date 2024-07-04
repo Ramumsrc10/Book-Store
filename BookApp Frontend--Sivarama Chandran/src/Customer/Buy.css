@@ -1,0 +1,51 @@
+.buy-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+}
+
+.buy-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.buy-image img {
+    width: 100%;
+    height: auto;
+}
+
+.buy-info {
+    flex: 2;
+}
+
+.buy-about {
+    margin-top: 20px;
+}
+
+.buy-about h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buy-details {
+    margin-top: 20px;
+}
+
+.buy-details p {
+    margin-bottom: 10px;
+}
+
+.buy-now-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
